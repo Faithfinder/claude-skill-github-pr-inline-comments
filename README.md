@@ -1,19 +1,11 @@
-# GitHub PR Inline Comments Skill
+# GitHub PR Inline Comments Plugin
 
-A [Claude Code](https://claude.ai/code) skill for posting inline review comments on GitHub pull requests.
+A [Claude Code](https://claude.ai/code) plugin for posting inline review comments on GitHub pull requests.
 
 ## Installation
 
-Add to your Claude Code skills:
-
 ```bash
-claude mcp add-skill https://github.com/Faithfinder/claude-skill-github-pr-inline-comments
-```
-
-Or manually clone to your skills directory:
-
-```bash
-git clone https://github.com/Faithfinder/claude-skill-github-pr-inline-comments.git ~/.claude/skills/github-pr-inline-comments
+claude plugin install --url https://github.com/Faithfinder/claude-skill-github-pr-inline-comments.git
 ```
 
 ## What it does

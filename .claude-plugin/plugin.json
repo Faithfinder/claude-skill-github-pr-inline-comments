@@ -1,0 +1,14 @@
+{
+  "name": "github-pr-inline-comments",
+  "version": "1.0.0",
+  "description": "Post inline review comments on GitHub PRs using the gh CLI. Solves the tricky line number resolution issues.",
+  "author": {
+    "name": "Faithfinder"
+  },
+  "skills": [
+    {
+      "name": "github-pr-inline-comments",
+      "path": "SKILL.md"
+    }
+  ]
+}
