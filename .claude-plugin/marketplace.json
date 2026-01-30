@@ -1,0 +1,22 @@
+{
+  "name": "faithfinder-plugins",
+  "owner": {
+    "name": "Faithfinder"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by Faithfinder",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "github-pr-inline-comments",
+      "source": "./github-pr-inline-comments",
+      "description": "Post inline review comments on GitHub PRs using the gh CLI. Solves the tricky line number resolution issues.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Faithfinder"
+      },
+      "keywords": ["github", "pr", "review", "comments"]
+    }
+  ]
+}
